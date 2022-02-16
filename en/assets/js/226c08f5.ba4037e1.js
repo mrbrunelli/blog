@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[217],{8094:function(a){a.exports=JSON.parse('{"allTagsPath":"/my-blog/en/blog/tags","slug":"/my-blog/en/blog/tags/a-importancia-da-educacao","name":"a importancia da educa\xe7\xe3o","count":1,"permalink":"/my-blog/en/blog/tags/a-importancia-da-educacao"}')}}]);

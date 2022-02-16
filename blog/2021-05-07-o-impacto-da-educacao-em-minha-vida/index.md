@@ -2,7 +2,7 @@
 slug: o-impacto-da-educação-em-minha-vida
 title: O impacto da educação em minha vida
 authors: brunelli
-tags: [educação, a importancia da educação]
+tags: [educação, a importancia da educação, aprendizado]
 ---
 
 ![Education Banner](./education.jpeg)

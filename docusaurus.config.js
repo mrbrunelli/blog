@@ -62,14 +62,6 @@ const config = {
           src: "img/logo.png",
           href: "/blog",
         },
-        items: [
-          {
-            to: "/sobre",
-            activeBasePath: "sobre",
-            label: "Sobre mim",
-            position: "left",
-          },
-        ],
       },
       footer: {
         style: "dark",

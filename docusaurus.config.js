@@ -8,13 +8,31 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Matheus Brunelli",
   tagline: "Blog Matheus Brunelli",
-  url: "https://github.com/mrbrunelli/blog",
+  url: "https://mrbrunelli.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  onDuplicateRoutes: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "mrbrunelli", // Usually your GitHub org/user name.
-  projectName: "blog", // Usually your repo name.
+  organizationName: "mrbrunelli",
+  projectName: "blog",
+  deploymentBranch: "gh-pages",
+  i18n: {
+    defaultLocale: "pt",
+    locales: ["pt", "en"],
+    localeConfigs: {
+      pt: {
+        label: "Português",
+        direction: "ltr",
+        htmlLang: "pt-BR",
+      },
+      en: {
+        label: "English",
+        direction: "ltr",
+        htmlLang: "en-US",
+      },
+    },
+  },
 
   presets: [
     [
@@ -24,9 +42,7 @@ const config = {
         docs: false,
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/mrbrunelli/blog/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -38,6 +54,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: false,
       navbar: {
         title: "Blog",
         logo: {
@@ -45,6 +62,14 @@ const config = {
           src: "img/logo.png",
           href: "/blog",
         },
+        items: [
+          {
+            to: "/sobre",
+            activeBasePath: "sobre",
+            label: "Sobre mim",
+            position: "left",
+          },
+        ],
       },
       footer: {
         style: "dark",
@@ -76,7 +101,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Matheus Ricardo Brunelli`,
+        copyright: `Copyright © ${new Date().getFullYear()} Matheus Ricardo Brunelli. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

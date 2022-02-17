@@ -9,7 +9,7 @@ const config = {
   title: "Matheus Brunelli",
   tagline: "Blog Matheus Brunelli",
   url: "https://mrbrunelli.github.io",
-  baseUrl: "/",
+  baseUrl: "/blog/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   onDuplicateRoutes: "warn",

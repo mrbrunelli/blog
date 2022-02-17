@@ -59,15 +59,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: "keywords", content: "brunelli, matheus brunelli, blog" },
+      ],
       hideableSidebar: false,
       navbar: {
         hideOnScroll: true,
-        title: "Posts",
-        logo: {
-          alt: "Logo",
-          src: "img/logo.png",
-          href: "/",
-        },
+        items: [{ to: "/", label: "Blog", position: "left" }],
       },
       footer: {
         style: "dark",

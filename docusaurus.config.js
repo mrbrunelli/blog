@@ -9,13 +9,13 @@ const config = {
   title: "Matheus Brunelli",
   tagline: "Blog Matheus Brunelli",
   url: "https://mrbrunelli.github.io",
-  baseUrl: "/my-blog/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   onDuplicateRoutes: "warn",
   favicon: "img/favicon.ico",
   organizationName: "mrbrunelli",
-  projectName: "my-blog",
+  projectName: "blog",
   deploymentBranch: "gh-pages",
   i18n: {
     defaultLocale: "pt",
@@ -41,7 +41,12 @@ const config = {
       ({
         docs: false,
         blog: {
+          routeBasePath: "/",
           showReadingTime: true,
+          blogTitle: "Blog Matheus Brunelli",
+          blogDescription: "Veja as últimas postagens",
+          blogSidebarTitle: "Todos os posts",
+          blogSidebarCount: "ALL",
           editUrl: "https://github.com/mrbrunelli/blog/tree/master",
         },
         theme: {
@@ -56,18 +61,19 @@ const config = {
     ({
       hideableSidebar: false,
       navbar: {
-        title: "Blog",
+        hideOnScroll: true,
+        title: "Posts",
         logo: {
           alt: "Logo",
           src: "img/logo.png",
-          href: "/blog",
+          href: "/",
         },
       },
       footer: {
         style: "dark",
         links: [
           {
-            title: "Social",
+            title: "Minhas redes sociais",
             items: [
               {
                 label: "GitHub",
@@ -80,15 +86,6 @@ const config = {
               {
                 label: "Linkedin",
                 href: "https://www.linkedin.com/in/mrbrunelli",
-              },
-            ],
-          },
-          {
-            title: "Sobre mim",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
               },
             ],
           },

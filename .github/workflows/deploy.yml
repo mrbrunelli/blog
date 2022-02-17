@@ -26,3 +26,6 @@ jobs:
 
       - name: Deploy
         run: yarn deploy
+        env:
+          GIT_USER: ${{ secrets.GIT_USER }}
+          GIT_PASS: ${{ secrets.GIT_PASS }}

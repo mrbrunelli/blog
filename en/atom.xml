@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mrbrunelli.github.io/blog/en/</id>
-    <title>Matheus Brunelli Blog</title>
+    <title>Programação e Carreira Blog</title>
     <updated>2021-12-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mrbrunelli.github.io/blog/en/"/>
-    <subtitle>Matheus Brunelli Blog</subtitle>
+    <subtitle>Programação e Carreira Blog</subtitle>
     <icon>https://mrbrunelli.github.io/blog/en/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Como contornar a dor de escrever um teste unitário?]]></title>

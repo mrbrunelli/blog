@@ -1,0 +1,28 @@
+name: deploy
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy-blog:
+    name: Deploy 🚀
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Git repo
+        uses: actions/checkout@v2
+
+      - name: Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.x"
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build project
+        run: yarn build
+
+      - name: Deploy
+        run: yarn deploy

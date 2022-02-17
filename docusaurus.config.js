@@ -65,8 +65,17 @@ const config = {
       hideableSidebar: false,
       navbar: {
         hideOnScroll: true,
+        title: "Postagens",
+        logo: {
+          src: "img/pen.svg",
+          href: "/",
+        },
         items: [
-          { to: "/", label: "Posts", position: "left" },
+          {
+            to: "/tags",
+            label: "Marcadores",
+            position: "left",
+          },
           {
             href: "https://github.com/mrbrunelli",
             position: "right",

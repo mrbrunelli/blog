@@ -13,6 +13,8 @@ Estou falando sobre os **testes unitários**. Acredito que todo mundo concorda q
 
 Por outro lado, escrever testes para uma feature já implementada pode ser algo muito doloroso, por isso **muita gente prefere correr o risco e deixar o código sem cobertura.**
 
+<!--truncate-->
+
 Mas recentemente venho estudando fortemente uma metodologia que abriu minha mente, o **TDD**, ou em português **"Desenvolvimento guiado por testes"**. No TDD nós criamos o teste primeiro, e só depois criamos a implementação de fato, que fará o teste passar. Isso faz com que nosso código sempre esteja coberto por testes.
 
 ## Traduzindo

@@ -13,6 +13,8 @@ Ontem enquanto organizava minha gaveta, me deparei com minha certidão de casame
 
 Meu último emprego antes de me tornar Desenvolvedor em 2019 era de Auxiliar de Produção em uma fábrica aqui da cidade. O trabalho era muito simples, porem muito desgastante, Dorflex e Torsilax (não é propaganda) faziam parte da minha intensa semana.
 
+<!--truncate-->
+
 ### Tecnologia, uma realidade crescente
 
 Certo dia a fábrica inteira parou para ouvir o anúncio dos coordenadores das faculdades da região, e foi anunciado dentre os demais cursos o curso de Sistemas para Internet, e a fala do coordenador [Anderson Burnes](https://www.linkedin.com/in/profburnes) (que eu já conhecia) foi muito convincente, pois naquele ano várias empresas estavam passando por transformação digital, e estavam precisando de desenvolvedores qualificados, e os salários eram bem diferentes da minha realidade.

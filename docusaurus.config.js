@@ -77,6 +77,10 @@ const config = {
             position: "left",
           },
           {
+            type: "localeDropdown",
+            position: "right",
+          },
+          {
             href: "https://github.com/mrbrunelli",
             position: "right",
             className: "header-github-link",

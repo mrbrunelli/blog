@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[130],{2007:function(a){a.exports=JSON.parse('{"allTagsPath":"/en/tags","slug":"/en/tags/educacao","name":"educa\xe7\xe3o","count":1,"permalink":"/en/tags/educacao"}')}}]);

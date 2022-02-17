@@ -3,7 +3,6 @@ name: Deploy to GitHub Pages
 on:
   release:
     types: [created]
-    paths: [website/**]
 
 jobs:
   deploy:

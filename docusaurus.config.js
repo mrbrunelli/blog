@@ -65,7 +65,15 @@ const config = {
       hideableSidebar: false,
       navbar: {
         hideOnScroll: true,
-        items: [{ to: "/", label: "Blog", position: "left" }],
+        items: [
+          { to: "/", label: "Posts", position: "left" },
+          {
+            href: "https://github.com/mrbrunelli",
+            position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub profile",
+          },
+        ],
       },
       footer: {
         style: "dark",

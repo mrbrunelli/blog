@@ -5,6 +5,8 @@ authors: brunelli
 tags: [tdd, testes, teste unitário]
 ---
 
+![TDD Banner](./tdd.jpeg)
+
 Salve galera, tudo tranquilo? Esse é meu segundo artigo, e gostaria de compartilhar algo que vem me ajudando muito durante o desenvolvimento de software e na minha própria evolução profissional.
 
 Estou falando sobre os **testes unitários**. Acredito que todo mundo concorda que um código sem testes, é um código instável e frágil à mudanças. É muito ruim programar no escuro, nós nunca temos certeza que o que estamos desenvolvendo irá funcionar em produção, sem conflitar com as features já existentes.

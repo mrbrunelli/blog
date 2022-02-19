@@ -4,12 +4,12 @@ title: O impacto da educação em minha vida
 description: Meu último emprego antes de me tornar Desenvolvedor em 2019 era de Auxiliar de Produção em uma fábrica aqui da cidade...
 keywords:
   [a importância da educação, educação, conhecimento, transição de carreira]
-image: ./education.jpeg
+image: /img/education.jpeg
 authors: brunelli
 tags: [educação, a importância da educação, aprendizado]
 ---
 
-![Education Banner](./education.jpeg)
+![Education Banner](/img/education.jpeg)
 
 Ontem enquanto organizava minha gaveta, me deparei com minha certidão de casamento, onde estava escrito na primeira linha:
 

@@ -1,6 +1,6 @@
 ---
-slug: por-que-construí-um-validador-de-objetos
-title: Por que construí um validador de objetos?
+slug: como-foi-construir-um-validador-de-objetos
+title: Como foi construir um validador de objetos?
 authors: brunelli
 tags: [npm, pacote npm]
 ---

@@ -61,7 +61,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        { name: "keywords", content: "brunelli, matheus brunelli, blog" },
+        {
+          name: "keywords",
+          content:
+            "matheus ricardo brunelli, matheus brunelli, brunelli, mrbrunelli, brunelli blog, blog, programação, dev, javascript, typescript",
+        },
+        {
+          name: "og:image",
+          content:
+            "https://lh3.googleusercontent.com/fife/AAWUweV6ZG1YLwHb6r7Mu1EJ0MY76dSFMuKAZql7IbeTp63LsoVqstyYAcRh3xxlsM8jHwsAF40CXmfY5aqdfIZAj-onKdO5sNas23ARCoZPmfHTxtDJFlmcpV8RCE_T0O9DHrWQzqnp9nfg1mhOKIlEsd-cblr3l7gc5VavRf7XnEBeVkV6qQmr_1P5FE8pnc1oxuPDZoVBpolq0OjmvP80Ht3fGytCWiFX5LCaDfkEkY8AOzAgQsDA8OzfpZ1vs-Z18bN61fO-1n63idqxeqBUUtpZpS2CtT5HXOztATXDuSB8dg-0pooXXCxVFjja2ygoyybGjSe6FtIedYuyzGw23FCcnIepOXZQuFrrZn66XREdtOhVuAD6sn2pi-uuYdIV2noXwifEJEsB7MPdNKScri8LuS3Fhe4j8W7e9PWYqp124WQPqBMsk2q6OayMM_ngZj_mGwcrfZHjIHg92qt8ACyrWGftRmogM9YUvydH2V8elk2AZxC4dnO105f-eigm0Rs1z2fxWD_Cbe6SBGXOfidMwLRRihER0PjlUS4ZWfD74KMJ_1uJb1iqw1iS2z4qKxk6RpPq1_m6otG7-Nb4RLKNXIx-iWsP4k6xnUQs61bGjB8BWsG6gKCFtMrjfcxahlHnul3NHuBm8brhDwIKnZY_X5HFlkBDpdMxZBBFm66f2F02u5dKpO1ITMArgDcKEURz30VpJ5MkTLLf_O4EmiYJgaGN8ArTjA=w1920-h927",
+        },
+        {
+          name: "twitter:image",
+          content:
+            "https://lh3.googleusercontent.com/fife/AAWUweV6ZG1YLwHb6r7Mu1EJ0MY76dSFMuKAZql7IbeTp63LsoVqstyYAcRh3xxlsM8jHwsAF40CXmfY5aqdfIZAj-onKdO5sNas23ARCoZPmfHTxtDJFlmcpV8RCE_T0O9DHrWQzqnp9nfg1mhOKIlEsd-cblr3l7gc5VavRf7XnEBeVkV6qQmr_1P5FE8pnc1oxuPDZoVBpolq0OjmvP80Ht3fGytCWiFX5LCaDfkEkY8AOzAgQsDA8OzfpZ1vs-Z18bN61fO-1n63idqxeqBUUtpZpS2CtT5HXOztATXDuSB8dg-0pooXXCxVFjja2ygoyybGjSe6FtIedYuyzGw23FCcnIepOXZQuFrrZn66XREdtOhVuAD6sn2pi-uuYdIV2noXwifEJEsB7MPdNKScri8LuS3Fhe4j8W7e9PWYqp124WQPqBMsk2q6OayMM_ngZj_mGwcrfZHjIHg92qt8ACyrWGftRmogM9YUvydH2V8elk2AZxC4dnO105f-eigm0Rs1z2fxWD_Cbe6SBGXOfidMwLRRihER0PjlUS4ZWfD74KMJ_1uJb1iqw1iS2z4qKxk6RpPq1_m6otG7-Nb4RLKNXIx-iWsP4k6xnUQs61bGjB8BWsG6gKCFtMrjfcxahlHnul3NHuBm8brhDwIKnZY_X5HFlkBDpdMxZBBFm66f2F02u5dKpO1ITMArgDcKEURz30VpJ5MkTLLf_O4EmiYJgaGN8ArTjA=w1920-h927",
+        },
       ],
       hideableSidebar: false,
       navbar: {

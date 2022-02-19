@@ -3,12 +3,12 @@ slug: como-contornar-a-dor-de-escrever-um-teste-unitário
 title: Como contornar a dor de escrever um teste unitário?
 description: Acredito que todo mundo concorda que um código sem testes, é um código instável e frágil à mudanças...
 keywords: [tdd, tests, tdd example, tdd javascript]
-image: ./tdd.jpeg
+image: /img/tdd.jpeg
 authors: brunelli
 tags: [tdd, testes, teste unitário]
 ---
 
-![TDD Banner](./tdd.jpeg)
+![TDD Banner](/img/tdd.jpeg)
 
 Salve galera, tudo tranquilo? Esse é meu segundo artigo, e gostaria de compartilhar algo que vem me ajudando muito durante o desenvolvimento de software e na minha própria evolução profissional.
 

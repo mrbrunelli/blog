@@ -4,12 +4,12 @@ title: O impacto da educação em minha vida
 description: Meu último emprego antes de me tornar Desenvolvedor em 2019 era de Auxiliar de Produção em uma fábrica aqui da cidade...
 keywords:
   [a importância da educação, educação, conhecimento, transição de carreira]
-image: ./education.jpeg
+image: /img/education.jpeg
 authors: brunelli
 tags: [educação, a importância da educação, aprendizado]
 ---
 
-![Education Banner](./education.jpeg)
+![Education Banner](/img/education.jpeg)
 
 Ontem enquanto organizava minha gaveta, me deparei com minha certidão de casamento, onde estava escrito na primeira linha:
 
@@ -21,7 +21,7 @@ Meu último emprego antes de me tornar Desenvolvedor em 2019 era de Auxiliar de 
 
 ### Tecnologia, uma realidade crescente
 
-Certo dia a fábrica inteira parou para ouvir o anúncio dos coordenadores das faculdades da região, e foi anunciado dentre os demais cursos o curso de Sistemas para Internet, e a fala do coordenador [Anderson Burnes](https://www.linkedin.com/in/profburnes) (que eu já conhecia) foi muito convincente, pois naquele ano várias empresas estavam passando por transformação digital, e estavam precisando de desenvolvedores qualificados, e os salários eram bem diferentes da minha realidade.
+Certo dia a fábrica inteira parou para ouvir o anúncio dos coordenadores das faculdades da região, e foi anunciado dentre os demais cursos o curso de Sistemas para Internet, e a fala do coordenador [Anderson Burnes](https://www.linkedin.com/in/profburnes) (que eu já conhecia) foi muito convincente, pois naquele ano várias empresas estavam passando por transformações digitais, e estavam precisando de desenvolvedores qualificados, e os salários eram bem diferentes da minha realidade.
 
 Eu trabalhava muito para conseguir sustentar a minha família (eu, esposa e os doguinhos) e mesmo assim não era suficiente, um pneu furado ou uma gripe eram suficientes para acabar com nossas economias do mês rsrs.
 
@@ -49,7 +49,7 @@ Se eu pudesse deixar um conselho para quem está começando, seria:
 
 > Estude, e faça de tudo para tentar entrar no mercado. Tenha foco, e invista seu tempo estudando o que te dará retorno.
 
-Nem só de teoria vive o programador. Essa é uma profissão muito prática, quanto mais se exercita, mais se aprende. Os melhores exercícios são problemas reais de uma empresa. Mesmo que ganhando pouco no começo, trabalhar com problemas reais não tem preço, essa experiência não pode ser adquirida de outra forma.
+Nem só de teoria vive o programador. Essa é uma profissão muito prática, quanto mais se exercita, mais se aprende. Os melhores exercícios são os problemas reais de uma empresa. Mesmo que ganhando pouco no começo, trabalhar com problemas reais não tem preço, essa experiência não pode ser adquirida de outra forma.
 
 ### Considerações finais
 

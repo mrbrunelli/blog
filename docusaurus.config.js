@@ -7,7 +7,7 @@ const metatags = require("./metatags");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Blog Matheus Brunelli, programação, carreira e muito Javascript!",
+  title: "Blog Matheus Brunelli",
   tagline: "Compartilhando conhecimento de experiências reais",
   url: "https://mrbrunelli.github.io",
   baseUrl: "/blog/",
@@ -46,7 +46,7 @@ const config = {
           showReadingTime: true,
           blogTitle: "Postagens",
           blogDescription:
-            "Matheus Brunelli, programação, carreira e muito Javascript! Clique aqui para ver as últimas postagens:",
+            "Desenvolvimento de software, carreira, dicas de livros e muito Javascript! Clique aqui para ver as últimas postagens:",
           blogSidebarTitle: "Todos os posts",
           blogSidebarCount: "ALL",
           editUrl: "https://github.com/mrbrunelli/blog/tree/master",

@@ -19,18 +19,20 @@ const metatags = [
     content: "https://mrbrunelli.github.io/blog/img/profile.png",
   },
   {
-    property: "twitter:card",
+    name: "twitter:image",
+    content: "https://mrbrunelli.github.io/blog/img/profile.png",
+  },
+  {
+    name: "twitter:card",
     content: "summary_large_image",
   },
   {
-    name: "url",
-    property: "twitter:url",
-    content: "https://mrbrunelli.github.io/blog/",
+    name: "twitter:site",
+    content: "@mrbrunelli_",
   },
   {
-    name: "image",
-    property: "twitter:image",
-    content: "https://mrbrunelli.github.io/blog/img/profile.png",
+    name: "twitter:creator",
+    content: "@mrbrunelli_",
   },
 ];
 

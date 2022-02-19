@@ -1,5 +1,9 @@
 const metatags = [
   {
+    name: "google-site-verification",
+    content: "DyDIWgyRnRD_kVAzhpjLphZmRMSevtgXjSbmiP1pqmM",
+  },
+  {
     name: "keywords",
     content:
       "matheus, ricardo, brunelli, mrbrunelli, blog, programação, desenvolvimento, software, javascript, typescript",

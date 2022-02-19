@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[11],{2266:function(e){e.exports=JSON.parse('{"permalink":"/blog/","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Matheus Brunelli, programa\xe7\xe3o, carreira e muito Javascript!. Veja as \xfaltimas postagens:","blogTitle":"Postagens"}')}}]);

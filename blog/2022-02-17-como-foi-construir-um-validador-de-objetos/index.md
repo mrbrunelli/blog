@@ -1,6 +1,9 @@
 ---
 slug: como-foi-construir-um-validador-de-objetos
 title: Como foi construir um validador de objetos?
+description: Primeiramente, por que contruí um pacote de validar objetos, sendo que o npm está cheio deles...
+keywords: [validator, object validator, schema validator, npm]
+image: ./npm.png
 authors: brunelli
 tags: [npm, pacote npm, validator, validador de objetos]
 ---

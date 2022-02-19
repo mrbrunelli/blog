@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[982],{3418:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/validador-de-objetos","name":"validador de objetos","count":1,"permalink":"/blog/tags/validador-de-objetos"}')}}]);

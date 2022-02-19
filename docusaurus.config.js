@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Programação e Carreira",
-  tagline: "Blog Matheus Brunelli",
+  title: "Blog Matheus Brunelli, programação, carreira e muito Javascript!",
+  tagline: "Compartilhando conhecimento de experiências reais",
   url: "https://mrbrunelli.github.io",
   baseUrl: "/blog/",
   onBrokenLinks: "throw",
@@ -43,8 +43,9 @@ const config = {
         blog: {
           routeBasePath: "/",
           showReadingTime: true,
-          blogTitle: "Blog Matheus Brunelli",
-          blogDescription: "Veja as últimas postagens",
+          blogTitle: "Postagens",
+          blogDescription:
+            "Matheus Brunelli, programação, carreira e muito Javascript!. Veja as últimas postagens:",
           blogSidebarTitle: "Todos os posts",
           blogSidebarCount: "ALL",
           editUrl: "https://github.com/mrbrunelli/blog/tree/master",

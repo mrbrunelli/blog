@@ -107,7 +107,11 @@ Outro comando muito utilizado. Vamos simplificá-lo.
     pusho = !git push origin HEAD
 ```
 
-Agora podemos usar essa combinação `git c 'feat: adicionar simplicidade' && git pusho`.
+Agora podemos usar essa combinação:
+
+```bash
+git c 'feat: adicionar simplicidade' && git pusho
+```
 
 ### git log
 
@@ -128,12 +132,12 @@ Quem nunca se perdeu ao utilizar um `git log`? São muitas informações de uma 
 
 #### Vamos entender o que fizemos
 
-- %h: id do commit (hash)
-- %s: mensagem do commit
-- %cn: autor do commit
-- %cr: quanto tempo desde o commit
+- **%h**: id do commit (hash)
+- **%s**: mensagem do commit
+- **%cn**: autor do commit
+- **%cr**: quanto tempo desde o commit
 
-Agora seu `git l` retornará os dados do commit em apenas uma linha. Também dá pra mudar a cor, vou deixar a documentação logo abaixo pra você consultar.
+Agora seu `git l` retornará os dados do commit de uma forma bem resumida. Também dá pra mudar a cor, vou deixar a documentação logo abaixo pra você consultar.
 
 ## Links úteis
 
@@ -144,4 +148,6 @@ Agora seu `git l` retornará os dados do commit em apenas uma linha. Também dá
 
 Não existe limites, podemos combinar vários comandos e simplificar nossa rotina. Agora você pode brincar e criar seus próprios atalhos!
 
-Espero que tenha sido útil, até a próxima!
+Espero que tenha gostado! Se te ajudou de alguma maneira, compartilhe com seus amigos e colegas de trabalho!
+
+Até a próxima!

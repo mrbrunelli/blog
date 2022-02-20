@@ -12,6 +12,8 @@ Salve galera, tudo bem?
 
 Hoje quero compartilhar com vocês algo bem bacana, que é criar seus próprios snippets no VS Code.
 
+<!-- truncate -->
+
 ## O que é um Snippet?
 
 ### Um atalho

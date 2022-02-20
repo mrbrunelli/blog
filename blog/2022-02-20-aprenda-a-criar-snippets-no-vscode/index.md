@@ -26,7 +26,7 @@ for (const item of items) {
 }
 ```
 
-Esse tipo de código tende a se repetir muito durante nosso desenvolvimento rotineiro. Com isso, pode ficar sempre chato ficar escrevendo a mesma sintaxe toda vez.
+Esse tipo de código tende a se repetir muito durante nosso desenvolvimento rotineiro. Com isso, pode ficar chato escrever a mesma sintaxe toda vez.
 
 ### Produtividade
 

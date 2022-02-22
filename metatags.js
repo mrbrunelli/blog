@@ -13,11 +13,6 @@ const metatags = [
     content: "website",
   },
   {
-    name: "url",
-    property: "og:url",
-    content: "https://mrbrunelli.github.io/blog/",
-  },
-  {
     name: "image",
     property: "og:image",
     content: "https://mrbrunelli.github.io/blog/img/profile.png",

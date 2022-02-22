@@ -15,11 +15,11 @@ Olá, tudo bem?
 Hoje vou ensinar como criar atalhos para o **git** que vão aumentar tua produtividade.
 Sem muita enrolação, vamos direto para a prática.
 
-<!-- truncate -->
-
 ## Escolher o editor de textos padrão
 
 Antes de começar, é bom configurar o editor de texto de sua preferência. Eu vou utilizar o [Vim](https://www.vim.org/), mas você pode utilizar o Code, Nano etc.
+
+<!-- truncate -->
 
 ### Configurar editor
 

@@ -2,14 +2,15 @@
 slug: minha-jornada-de-estudos
 title: Minha jornada de estudos
 description: Com tanto conteúdo para estudar, como escolhi os mais vantajosos para minha carreira?
-keywords: [jornada, estudos]
-#image: /img/every.png
-tags: [jornada, estudos]
+keywords: [jornada, estudos, tecnologias]
+image: /img/studying.jpg
+tags: [jornada, estudos, tecnologias]
 authors: brunelli
 ---
 
 Eai pessoal, tudo bem com vocês? Hoje quero compartilhar minha jornada de estudos, e como fiz minhas escolhas se alinharem com meus objetivos e carreira.
-Pra quem não me conhece, dá uma passada no meu [LinkedIn](https://www.linkedin.com/in/mrbrunelli/), ali contém toda minha jornada, experiência etc.
+
+Pra quem não me conhece, dá uma passada no meu [LinkedIn](https://www.linkedin.com/in/mrbrunelli/), ali contém toda minha jornada, experiências etc.
 
 <!-- truncate -->
 
@@ -19,8 +20,9 @@ Antes de tudo, não saí que nem louco sem ter um rumo. Tudo foi muito bem plane
 
 ### Direção
 
-Uma coisa é certa, se a gente não tiver uma direção, vamos acabar andando em círculos.
-Eu estive perto de pessoas que não eram felizes em seu trabalho, e que reclamavam o dia inteiro por suas condições, salário e família.
+Uma coisa é certa, se a gente não tiver uma direção, vamos acabar **andando em círculos**. Existem pessoas que estudam sem foco, e ficam frustradas porque não conseguem sair do lugar.
+
+Eu estive perto de pessoas que não eram felizes em seu trabalho, e que reclamavam o dia inteiro por suas condições, salário e família etc.
 
 De forma alguma eu gostaria de acabar assim, sempre tive o desejo de fazer algo **relevante**, ser **feliz** e **bem remunerado** por isso.
 
@@ -34,7 +36,7 @@ Depois de entender e aceitar isso, tracei meu plano de vida e carreira.
 
 ### Plano de vida e carreira
 
-Sentei com minha esposa, e colocamos no papel tudo que gostaríamos de realizar, viagens, bens materiais, filhos, cerveja etc.
+Sentei com minha esposa, e colocamos no papel tudo que gostaríamos de realizar, viagens, bens materiais, filhos, cerveja etc. E calculamos valores em dinheiro mesmo, que nos daria liberdade para realizar todos os nossos sonhos.
 
 Depois de um tempo refletindo sobre, pesquisei no mercado as stacks mais utilizadas, o tipo de conhecimento mais valorizado, chamei devs do IFood, Mercado Livre, e UOL no chat do LinkedIn, e perguntei o que eles usavam lá, se curtiam a empresa, se o salário era bom etc.
 
@@ -46,11 +48,12 @@ Esse processo que eu fiz, curso nenhum ensina. Tem que ter vontade e correr atr�
 
 Ser generalista é bom até um ponto, mas depois temos que descer e se **aprofundar** em algo, **se quisermos nos destacar**. Vou trazer aqui as tecnologias que me abriram portas, e no final a que eu foquei e estou me especializando até o momento.
 
-Depois de conhecer um pouco a realidade do mercado, filtrei as tecnologias e comecei a estudá-las.
+Depois de conhecer um pouco a realidade do mercado, filtrei as tecnologias que faziam sentido pra mim e comecei a estudá-las.
 
 ### React
 
 Se tem uma tecnologia que é campeã disparada no mercado Front-End, é o [React](https://pt-br.reactjs.org/).
+
 Não sabe o que é isso? Então toma aqui e assiste: [O que é React?](https://youtu.be/NhUr8cwDiiM)
 
 Eu estudei o essencial dessa tecnologia para conseguir me virar. Vou colocar os principais tópicos, pois com isso você já consegue criar muita coisa:
@@ -66,7 +69,7 @@ Eu estudei o essencial dessa tecnologia para conseguir me virar. Vou colocar os 
 
 Não tem como fugir, em algum momento da sua carreira você irá precisar fazer uma query SQL, criar uma tabela, atualizar um registro etc. A maioria das empresas utilizam bancos de dados SQL.
 
-Existe os NoSQL como o MongoDB, mas ele é muito mais fácil de aprender, e não é tão utilizado como o [PostgreSQL](https://www.postgresql.org/) por exemplo. Então deixe o SQL em dia primeiro.
+Existem os NoSQL como o MongoDB, mas ele é tranquilo de aprender, e não é tão utilizado como o [PostgreSQL](https://www.postgresql.org/) por exemplo. Então deixe o SQL em dia primeiro, depois você expande seu ferramental.
 
 Não sabe o que é SQL e pra que serve? Pega aqui [O que é SQL?](https://youtu.be/kMznyI7r2Tc)
 
@@ -81,7 +84,7 @@ Não sabe o que é SQL e pra que serve? Pega aqui [O que é SQL?](https://youtu.
 
 Isso aqui vai deixar sua vida muito mais fácil. Como você subiria um banco de dados na sua máquina? Teria que instalar um monte de parafernalha, e configurar um monte de coisa que você nem saberia para que serve.
 
-O Docker permite que você crie containers para sua aplicação, como por exemplo nosso banco de dados. Ele sobe uma máquina linux somente com o essencial, bem leve. E você pode subir seu banco de dados ai dentro desse container, sem precisar instalar as parafernalhas na sua máquina. Isso mesmo, todas as tranqueiras ficam ali no container apenas.
+O Docker permite que você crie containers para sua aplicação, como por exemplo nosso banco de dados. Ele sobe uma máquina linux somente com o essencial, bem leve. E você pode subir seu banco de dados ai dentro desse container, sem precisar instalar as parafernalhas na sua máquina. Isso mesmo, todas as "tranqueiras" ficam ali no container apenas.
 
 Não sabe o que é e pra que serve? Já assiste aí [O que é Docker?](https://youtu.be/-pUZBovqRcU)
 
@@ -103,17 +106,18 @@ Não conhece nenhum dos dois? Então assiste aí [O que é Git?](https://youtu.b
 
 Tópicos essenciais para estudar:
 
-- Como versionar meu código
-- Como criar uma nova branch
-- Como desfazer um commit
-- Como voltar em um commit antigo
+- Como criar um repositório?
+- Como versionar meu código?
+- Como criar uma nova branch?
+- Como desfazer um commit?
+- Como voltar em um commit antigo?
 - Pull Request, Merge
 - GitFlow
 - GitHub Actions
 
 ### API REST
 
-Por que é importante estudar REST? Porque a maioria dos serviços que você irá consumir são baseados em [Http](https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol). Você também irá trafegar muitos dados através de APIs.
+Por que é importante estudar API? Porque a maioria dos serviços que você irá consumir são baseados em [Http](https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol). Você também irá trafegar muitos dados através de APIs.
 
 Inclusive, tudo que você aprender aqui, acabará utilizando tando no Back-End quanto no Front-End. Já que na maioria das vezes o Front-End se conecta ao Back-End utilizando uma API.
 
@@ -147,6 +151,8 @@ Ainda não sabe o que são testes e para que servem? Veja esses vídeos [O que s
 
 Hoje a maioria das aplicações estão distribuídas em cloud, então provavelmente você irá ter contato recorrente com ela no mercado.
 
+Tá meio confuso ainda? Confere aqui [Como criar meu primeiro Bucket S3 na AWS](https://www.youtube.com/watch?v=Dwm1PqEX-8I)
+
 Caso queira um caminho para começar, segue esses tópicos essenciais:
 
 - O que é AWS?
@@ -157,7 +163,7 @@ Caso queira um caminho para começar, segue esses tópicos essenciais:
 
 ### Node
 
-E cá estamos, em minha tecnologia favorita! Comecei estudando Node junto com React através de bootcamps gratuitos e me apaixonei.
+E cá estamos, em minha tecnologia favorita! Comecei estudando Node junto com React através de bootcamps gratuitos e me apaixonei. Depois disso decidi comprar livros e treinamentos mais avançados, para poder me aprofundar na ferramenta.
 
 Node é utilizado em tudo que é lugar, e é muito fácil de aprender o essencial. Existem muitos [tutoriais no YouTube](https://www.youtube.com/results?search_query=como+criar+api+node) e [exemplos no GitHub](https://github.com/search?q=node+examples), o que torna o aprendizado muito mais fluído.
 
@@ -165,7 +171,7 @@ De um ano pra cá direcionei todos os meus estudos para Back-End com Node e não
 
 É muito fácil começar, só entrar no [site oficial](https://nodejs.org/en/) e fazer o download.
 
-Não sabe o que é e para que serve? Assista aqui [O que é Node?](https://youtu.be/vYekSMBCCiM)
+Não sabe o que é e para que serve? Assista aqui [O que é Node?](https://youtu.be/vYekSMBCCiM) e [Como fazer um CRUD com Node + Express + PostgreSQL?](https://youtu.be/9AO2hZJsHrs)
 
 Tópicos essenciais para começar:
 
@@ -181,15 +187,40 @@ Tópicos essenciais para começar:
 - O que são Callbacks e quando utilizar?
 - Como construir uma API com Express?
 - Como conectar com um banco de dados?
+- Como fazer um CRUD?
 
 ### No que estou me especializando?
 
-Existem muitas ferramentas para complementar o desenvolvimento de software com Node, e como estou focado em Back-End, estou estudando as seguintes tecnologias e frameworks, pois elas fazem parte da minha rotina:
+Existem muitas ferramentas para complementar o desenvolvimento de software com Node, e como estou focado em Back-End, estou estudando as seguintes tecnologias e frameworks, pois elas fazem parte da minha rotina, e me ajudam demais:
 
 - NestJS
-- Container de Dependência
 - Serverless Framework
 - Mensageria e Eventos
 - Microsserviços
+- Terraform
 - TDD
 - AWS
+
+## Como adquirir conhecimento nessas tecnologias?
+
+Isso vai depender de como você aprender melhor. Eu prefiro muito mais os livros, porque eu consigo acompanhar todo o raciocínio do autor até a solução, e é muito mais detalhado.
+
+Mas hoje você consegue acessar **gratuitamente** qualquer curso dessas tecnologias no YouTube, ou com um preço bem em conta na Udemy por exemplo.
+
+Eu costumo comprar apenas treinamentos **mais avançados**, que **não são encontrados de graça**. Tu não precisa comprar um curso de como fazer um CRUD em Node, existem milhares de vídeos e bootcamps ensinando a mesma coisa no YouTube. Sem falar nos milhares de exemplos no GitHub.
+
+Não seja só um copiador passivo, termine a aula e tente fazer sozinho, tente aplicar teu conhecimento em um cenário diferente, teste seu próprio conhecimento e depois **suba no GitHub esse seu aprendizado.**
+
+Exercite todo dia, até você chegar em seu objetivo, depois o ritmo **desacelera naturamente**, pois você aprenderá novas tecnologias com **muito mais facilidade**.
+
+Como eu disse lá em cima, alinhe suas expectativas com sua família, converse e explique para sua família e amigos que você está focado nos estudos, e que precisa de um tempo. Se eles te amam, vão entender.
+
+## Conclusão
+
+Se isso aqui fez sentido para você, então coloque em prática o que **você acha necessário** para seu momento. Compartilhe com seus amigos e discutam isso. Discutir um tema com um amigo que também esta estudando na mesma pegada que você é muito bom, a gente aprende demais!
+
+Agora se isso não fez sentido pra você, procure encontrar algo que faça e coloque suas forças nisso! Só não vale reclamar de braços cruzados fechou? :stuck_out_tongue_winking_eye:
+
+Se você ficou até aqui, obrigado. Investi um bom tempo escrevendo tudo isso, pois muitas pessoas me chamam no privado perguntando o que eu estudo e como eu faço as coisas etc. Então esse é um compiladão pra quem tem essa dúvida :smile:
+
+Grande abraço, e até mais!

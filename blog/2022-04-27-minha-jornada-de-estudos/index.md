@@ -44,6 +44,49 @@ Esse processo que eu fiz, curso nenhum ensina. Quem ensina é a vida, e em forma
 
 #### Tecnologias que resolvi focar
 
-Ser generalista é bom até um ponto, mas depois temos que descer e se aprofundar em algo, se quisermos nos destacar.
+Ser generalista é bom até um ponto, mas depois temos que descer e se **aprofundar** em algo, **se quisermos nos destacar**. Vou trazer aqui as tecnologias que me abriram portas, e no final a que eu foquei e estou me especializando.
 
 ##### React
+
+Se tem uma tecnologia que é campeã disparada no mercado, é o [React](https://pt-br.reactjs.org/).
+Não sabe o que é isso? Então toma aqui e assiste: [O que é React?](https://youtu.be/NhUr8cwDiiM)
+
+Eu estudei o essencial dessa tecnologia para conseguir me virar. Vou colocar os principais tópicos, pois com isso você já consegue criar muita coisa:
+
+- Consumir APIs
+- Gerenciar estados da aplicação
+- Gerenciar rotas da aplicação
+- Estilização (CSS)
+- Componentização
+- Renderização condicional
+
+##### MySQL/PostgreSQL
+
+Não tem como fugir, em algum momento da sua carreira você irá precisar fazer uma query SQL, criar uma tabela, atualizar um registro etc. A maioria das empresas utilizam bancos de dados SQL.
+
+Existe os NoSQL como o MongoDB, mas ele é muito mais fácil de aprender, e não é tão utilizado como o PostgreSQL por exemplo. Então deixe o SQL em dia.
+
+Não sabe o que é SQL e pra que serve? Pega aqui [O que é SQL?](https://youtu.be/kMznyI7r2Tc)
+
+**Aprenda o essencial**, não tente fazer um curso de DBA se você quer ser desenvolvedor. Foque no essencial, e conforme for precisando você vai se capacitando. Tópicos bons para estudar:
+
+- Criar, editar e deletar banco de dados
+- Criar, editar e deletar tabelas
+- Relacionamento entre tabelas
+- Consulta, Filtros e Agrupadores
+
+##### Docker
+
+Isso aqui vai deixar sua vida muito mais fácil. Como você subiria um banco de dados na sua máquina? Teria que instalar um monte de parafernalha, e configurar um monte de coisa que você nem saberia para que serve.
+
+O Docker permite que você crie containers para sua aplicação, como por exemplo nosso banco de dados. Ele sobe uma máquina linux somente com o essencial, bem leve. E você pode subir seu banco de dados ai dentro desse container, sem precisar instalar as parafernalhas na sua máquina. Isso mesmo, todas as tranqueiras ficam ali no container apenas.
+
+Não sabe o que é e pra que serve? Já assiste aí [O que é Docker?](https://youtu.be/-pUZBovqRcU)
+
+Alguns tópicos essenciais para o estudo:
+
+- Como criar uma Imagem
+- Como criar um Container baseado em uma Imagem
+- Como comunicar um Container com o outro
+- Como transferir os arquivos da minha máquina para o Container e vice versa?
+- Dockerfile e docker-compose

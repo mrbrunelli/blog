@@ -16,7 +16,7 @@ Pra quem não me conhece, dá uma passada no meu [LinkedIn](https://www.linkedin
 
 ## Minha Jornada
 
-Antes de tudo, não saí que nem louco sem ter um rumo. Tudo foi muito bem planejado com minha família. Por isso, consiredo a **direção e objetivos** muito importantes. Cada pessoa tem uma história, uma vida, desejos e objetivos. Se não **alinharmos as expectativas** primeiro, o resto não irá acontecer.
+Antes de tudo, não saí que nem louco sem ter um rumo. Tudo foi muito bem planejado com minha família. Por isso, considero a **direção e objetivos** muito importantes. Cada pessoa tem uma história, uma vida, desejos e objetivos. Se não **alinharmos as expectativas** primeiro, o resto não irá acontecer.
 
 ### Direção
 
@@ -160,6 +160,8 @@ Caso queira um caminho para começar, segue esses tópicos essenciais:
 - Para que serve um CDN?
 - Como fazer deploy do meu projeto na AWS?
 - Como criar um novo usuário e dar permissões personalizadas?
+- O que é SQS, e para que serve?
+- O que é uma Lambda? Quando devo utilizar?
 
 ### Node
 
@@ -191,21 +193,21 @@ Tópicos essenciais para começar:
 
 ### No que estou me especializando?
 
-Existem muitas ferramentas para complementar o desenvolvimento de software com Node, e como estou focado em Back-End, estou estudando as seguintes tecnologias e frameworks, pois elas fazem parte da minha rotina, e me ajudam demais:
+Existem muitas ferramentas para complementar o desenvolvimento de software com Node, e como estou focado em Back-End, estou estudando as seguintes tecnologias e frameworks, pois elas fazem parte da minha rotina e o mercado utiliza muito:
 
 - NestJS
 - Serverless Framework
 - Mensageria e Eventos
 - Microsserviços
 - Terraform
-- TDD
 - AWS
+- TDD
 
 ## Como adquirir conhecimento nessas tecnologias?
 
-Isso vai depender de como você aprender melhor. Eu prefiro muito mais os livros, porque eu consigo acompanhar todo o raciocínio do autor até a solução, e é muito mais detalhado.
+Isso vai depender de como você aprende melhor. Eu prefiro muito mais os livros, porque eu consigo acompanhar todo o raciocínio do autor até a solução, e é muito mais detalhado. Porém quando preciso de algo rápido, e que não estou encontrando na documentação, vou no YouTube mesmo.
 
-Mas hoje você consegue acessar **gratuitamente** qualquer curso dessas tecnologias no YouTube, ou com um preço bem em conta na Udemy por exemplo.
+Hoje você consegue acessar **gratuitamente** qualquer curso dessas tecnologias no YouTube, ou com um preço bem em conta na Udemy por exemplo.
 
 Eu costumo comprar apenas treinamentos **mais avançados**, que **não são encontrados de graça**. Tu não precisa comprar um curso de como fazer um CRUD em Node, existem milhares de vídeos e bootcamps ensinando a mesma coisa no YouTube. Sem falar nos milhares de exemplos no GitHub.
 
@@ -213,7 +215,7 @@ Não seja só um copiador passivo, termine a aula e tente fazer sozinho, tente a
 
 Exercite todo dia, até você chegar em seu objetivo, depois o ritmo **desacelera naturamente**, pois você aprenderá novas tecnologias com **muito mais facilidade**.
 
-Como eu disse lá em cima, alinhe suas expectativas com sua família, converse e explique para sua família e amigos que você está focado nos estudos, e que precisa de um tempo. Se eles te amam, vão entender.
+Como eu disse lá em cima, alinhe suas expectativas com sua família, converse e explique para sua família e amigos que você está focado nos estudos, e que precisa de um tempo. Se eles te amam, vão entender com certeza.
 
 ## Conclusão
 
@@ -221,6 +223,6 @@ Se isso aqui fez sentido para você, então coloque em prática o que **você ac
 
 Agora se isso não fez sentido pra você, procure encontrar algo que faça e coloque suas forças nisso! Só não vale reclamar de braços cruzados fechou? :stuck_out_tongue_winking_eye:
 
-Se você ficou até aqui, obrigado. Investi um bom tempo escrevendo tudo isso, pois muitas pessoas me chamam no privado perguntando o que eu estudo e como eu faço as coisas etc. Então esse é um compiladão pra quem tem essa dúvida :smile:
+Se você ficou até aqui, obrigado. Investi um bom tempo escrevendo tudo isso, pois algumas pessoas me chamam no privado perguntando **o que eu estudo/estudei** e **com o que eu trabalho** etc. Então esse é um compiladão pra quem tiver essas dúvidas :smile:
 
 Grande abraço, e até mais!

@@ -119,9 +119,9 @@ Tópicos essenciais para estudar:
 
 Por que é importante estudar API? Porque a maioria dos serviços que você irá consumir são baseados em [Http](https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol). Você também irá trafegar muitos dados através de APIs.
 
-Inclusive, tudo que você aprender aqui, acabará utilizando tando no Back-End quanto no Front-End. Já que na maioria das vezes o Front-End se conecta ao Back-End utilizando uma API.
+Inclusive, tudo que você aprender aqui, acabará utilizando tanto no Back-End quanto no Front-End. Já que na maioria das vezes o Front-End se conecta ao Back-End utilizando uma API.
 
-Inclusive, tem um [serviço](https://mockapi.io/) bem legal que é online e gratuito, onde você pode criar sua API fake e consumi-lá com uma [ferramenta apropriada](https://insomnia.rest/download). Para um primeiro contato é ótimo!
+Existe um [serviço](https://mockapi.io/) bem legal que é online e gratuito, onde você pode criar sua API fake e consumi-lá com uma [ferramenta apropriada](https://insomnia.rest/download). Para um primeiro contato é ótimo!
 
 Não sabe o que são esses termos? Tome aqui [O que é API](https://youtu.be/vGuqKIRWosk) e [O que é REST](https://www.youtube.com/watch?v=S7MduKwvVGk)
 

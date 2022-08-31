@@ -96,19 +96,11 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Minhas redes sociais",
+            title: "Entre em contato comigo",
             items: [
               {
-                label: "GitHub",
-                href: "https://github.com/mrbrunelli",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/mrbrunelli_",
-              },
-              {
-                label: "Linkedin",
-                href: "https://www.linkedin.com/in/mrbrunelli",
+                label: "Linktree",
+                href: "https://linktr.ee/mrbrunelli.dev",
               },
             ],
           },

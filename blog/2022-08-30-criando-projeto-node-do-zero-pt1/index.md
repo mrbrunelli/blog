@@ -10,6 +10,8 @@ authors: brunelli
 
 A ideia dessa série de posts é clarear o caminho para quem está começando na programação, mais especificamente na linguagem Javascript, mas não tem muita noção de onde deve começar. Irei reunir alguns passos básicos para começar a desenvolver um backend com Node.js.
 
+Essa série de posts também é indicada para quem está estudando na faculdade e tem ao menos um conhecimento razo de programação, e precisa de ajuda com alguns pontos que não ficaram claros em sala de aula.
+
 Durante essa série de posts iremos entender e aprender esses pontos (não necessariamente nessa ordem):
 
 <!-- truncate -->
@@ -24,6 +26,8 @@ Durante essa série de posts iremos entender e aprender esses pontos (não neces
 - Explicar o porquê de cada passo listado acima.
 
 Vou tentar explicar no formato baby steps quando for algo um pouco mais complexo. Quando for algo mais simples irei seguir em frente. Caso algum ponto aqui fique confuso para você, pesquise no Google, utilizando palavras chaves, por exemplo: _Erro ao executar comando npm no terminal powershell windows 10_. Dessa forma você já se habitua a pesquisar pelo conhecimento. Caso você fique travado e desanimado, me mande uma mensagem em alguma das minhas redes sociais e irei te ajudar na medida do possível. Aqui no rodapé do blog você consegue encontrar o link delas.
+
+**Todo o código visto aqui, estará disponível em um [repositório público no GitHub](https://github.com/mrbrunelli/post-criando-projeto-node-do-zero)**.
 
 ## Por que vamos utilizar Node.js?
 
@@ -170,7 +174,7 @@ app.listen(3333, () => {
 });
 ```
 
-Pause a aplicação digitando no terminal essa combinação de teclas <kbd>CTRL</kbd> + <kbd>C</kbd>. Agora inicie de novo com `npm start`. Dessa vez a mensagem _Servidor iniciado em http://localhost:3333_ irá aparecer no terminal. Abra o seu navegador e acesse [http://localhost:3333/hora-atual](http://localhost:3333/hora-atual). Dessa vez o retorno será a hora atual, pois fizemos a requisição do endpoint **/hora-atual**.
+Pause a aplicação digitando no terminal essa combinação de teclas <kbd>CTRL</kbd> + <kbd>C</kbd>. Agora inicie de novo com `npm start`. Dessa vez a mensagem _Servidor iniciado em http://localhost:3333_ irá aparecer no terminal. Abra o seu navegador e acesse [http://localhost:3333/hora-atual](http://localhost:3333/hora-atual). Dessa vez o retorno será a hora atual, pois fizemos a requisição no novo endpoint **/hora-atual**.
 
 Basicamente é isso, o express nos auxilia na criação de endpoints de uma forma muito simples. Para criar uma nova rota do tipo GET, basta criar uma nova linha com:
 
@@ -180,3 +184,31 @@ app.get("/nova-rota", (req, res) => {
   res.send("alguma coisa");
 });
 ```
+
+Veja que depois da rota **/nova-rota** temos essa notação: `(req, res) =>`. Isso é uma arrow function no Javascript, é uma forma mais simples de escrever `function (req, res) {}`. Isso significa que sempre que alguém acessar a rota, essa função sempre irá disparar, fazendo algo.
+
+Os parametros req e res são Request e Response respectivamente. Dentro de req vem todas as informações da requisição feita pelo cliente, como corpo da requisição, parametros, filtros, ip, hora da requisição etc. Dentro de res existem métodos que nos auxiliam na resposta para nosso cliente, como por exemplo o res.status(), com esse método podemos retornar um status 500 de erro, dessa forma nosso cliente saberá que a requisição dele falhou. Vou dar um exemplo:
+
+```js
+app.get("/nova-rota", (req, res) => {
+  res.status(500).send();
+});
+```
+
+Se acessarmos o _Developer Tools_ do navegador (<kbd>F12</kbd>) e acessarmos a aba _network_, a seguinte mensagem estará em evidencia em /nova-rota:
+
+```
+Request URL: http://localhost:3333/nova-rota
+Request Method: GET
+Status Code: 500 Internal Server Error
+Remote Address: [::1]:3333
+Referrer Policy: strict-origin-when-cross-origin
+```
+
+O Status Code retornou com _500 Internal Server Error_. [Aqui tem uma lista de Status Codes](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status) que podem e devem ser utilizados na sua aplicação.
+
+## Conclusão parte 1
+
+Até aqui vimos como iniciar um projeto Node.js com o Npm, também tivemos contato com o package.json e até instalamos uma biblioteca para criar servidores http.
+
+Nas próximas postagens vamos integrar nossa API com um banco de dados, começar a organizar nosso código e ver novos métodos http além do GET, como POST, PUT e DELETE.

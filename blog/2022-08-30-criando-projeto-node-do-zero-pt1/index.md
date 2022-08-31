@@ -50,7 +50,7 @@ Crie uma pasta com um nome qualquer, em seguida abra essa pasta com seu editor d
 
 Após executar o comando será criado um arquivo chamado **package.json** com o seguinte conteúdo:
 
-```json
+```json title=package.json
 {
   "name": "projeto-node",
   "version": "1.0.0",
@@ -104,3 +104,79 @@ Nosso objetivo é criar um sistema que se comunique via API's e banco de dados, 
 A biblioteca mais utilizada para criar API's em Node.js é o [Express](https://www.npmjs.com/package/express). Com ele é possivel criar um servidor web que aceita requisições HTTP de forma fácil e intuitiva.
 
 [Aqui na página do Express no npmjs.com](https://www.npmjs.com/package/express) tem um bocado de informações sobre o framework, o que ele faz, como instalar, como implementar etc. Dê uma lida, e habitue-se com esse formato de documentação, pois o npmjs.com será muito visitado por nós.
+
+### Npm install
+
+O NPM conta com diversos comandos para nos auxiliar durante o desenvolvimento, e você pode saber mais digitando no terminal `npm --help` ou `npm -h`.
+
+Como dito acima, nós vamos instalar algumas bibliotecas externas ao nosso projeto, dentre elas o Express. Digite no terminal `npm install express`, e aguarde a instalação.
+
+Assim que terminar de instalar, abra o package.json e confira ali em **dependencies**, o express estará lá, juntamente com sua versão instalada. Isso significa que essa biblioteca já pode ser usada. Faremos isso mais adiante.
+
+Agora preciso que veja que foi criado uma pasta dentro do seu projeto, chamada **node_modules**. Ao instalar uma dependência externa, ela vai para essa pasta, para que o Node.js possa usá-la.
+
+Caso você queira remover uma pacote instalado, basta executar `npm uninstall [nome-do-pacote]`.
+
+### Ajustando Node.js para funcionar com módulos
+
+Para utilizar o que o Node.js tem de mais novo, abra seu package.json e adicione essa linha:
+
+```json title=package.json
+{
+  "type": "module"
+}
+```
+
+Dessa forma nós poderemos utilizar a sinxtaxe de `import` e `export`, disponível nas versões mais recentes do Node.js.
+
+## Criando nosso primeiro servidor Http
+
+Abra seu arquivo index.js, e vamos importar o express nele. Lá no site do Npm já tinha um exemplo de como importar o express e utilizá-lo:
+
+```js title=index.js
+import express from "express";
+
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Olá mundo! Essa é minha primeira API!");
+});
+
+app.listen(3333);
+```
+
+Nesse trecho temos, importação da biblioteca express, criação de uma instância, definição de uma nova rota que ficará pública juntamente com uma resposta e por último a inicialização do servidor na porta 3333.
+
+Lembra que adicionamos o script start no package.json? Agora é hora de utilizar ele. Execute o comando no terminal `npm start`. Nenhuma mensagem irá aparecer, pois apenas pedimos para o servidor iniciar na porta 3333 sem nenhum log. Abra deu navegador e acesse [http://localhost:3333/](http://localhost:3333/). Deverá ser exibido a mensagem _Olá mundo! Essa é minha primeira API!_.
+
+Agora modifique seu código, deixando dessa forma:
+
+```js title=index.js
+import express from "express";
+
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Olá mundo! Essa é minha primeira API!");
+});
+
+app.get("/hora-atual", (req, res) => {
+  const horaAtual = new Date().toLocaleTimeString();
+  res.send(`Agora são ${horaAtual}`);
+});
+
+app.listen(3333, () => {
+  console.log("Servidor iniciado em http://localhost:3333");
+});
+```
+
+Pause a aplicação digitando no terminal essa combinação de teclas <kbd>CTRL</kbd> + <kbd>C</kbd>. Agora inicie de novo com `npm start`. Dessa vez a mensagem _Servidor iniciado em http://localhost:3333_ irá aparecer no terminal. Abra o seu navegador e acesse [http://localhost:3333/hora-atual](http://localhost:3333/hora-atual). Dessa vez o retorno será a hora atual, pois fizemos a requisição do endpoint **/hora-atual**.
+
+Basicamente é isso, o express nos auxilia na criação de endpoints de uma forma muito simples. Para criar uma nova rota do tipo GET, basta criar uma nova linha com:
+
+```js
+app.get("/nova-rota", (req, res) => {
+  // fazer alguma coisa e retornar
+  res.send("alguma coisa");
+});
+```

@@ -183,4 +183,111 @@ Environment é onde configuramos algumas variáveis de ambiente dessa imagem do 
 
 Confira se o seu Docker está devidamente instalado, execute esse comando no terminal `docker --version` e `docker compose version`. Aqui estou utilizando as versões 20.10.17 e v2.6.0 respectivamente.
 
-Dentro da pasta do seu projeto, execute no terminal `docker compose up -d` para criar seu container do MongoDB em background.
+Dentro da pasta do seu projeto, execute no terminal `docker compose up -d` para criar seu container do MongoDB em background. Aguarde a criação do container e depois veja se ele realmente foi criado, execute `docker container ls`, deverá aparecer algo assim `$ 709fd8af3e72 mongo "docker-entrypoint.s…" 6 seconds ago Up 5 seconds 0.0.0.0:27017->27017/tcp, :::27017->27017/tcp projeto-node-mongo-1`
+
+Veja que meu host está apontando a porta 27017 para a porta 27017 do container `0.0.0.0:27017->27017/tcp`, e isso garante que nossa aplicação conseguirá se comunicar com o banco de dados.
+
+## Plugando o banco de dados da aplicação
+
+Agora que nosso banco de dados existe, podemos apontar nossa aplicação para ele. Para isso, crie um novo arquivo **app.js** dentro de **src**, ficando dessa forma **src/app.js**.
+
+Abra app.js e digite esse código:
+
+```js title=app.js
+import express from "express";
+import mongoose from "mongoose";
+import { router } from "./routes";
+
+const app = express();
+
+mongoose.connect("mongodb://root:root@localhost:27017/?authMechanism=DEFAULT", {
+  dbName: "dogAdoption",
+});
+
+app.use(express.json());
+app.use(router);
+
+export { app };
+```
+
+Aqui estamos importando o express como feito antes, e agora temos algumas novidades. Temos a importação do mongoose para efetuar a conexão com nosso banco recem criado, também temos a importação das nossas rotas em routes.js.
+
+Em `mongoose.connect()` passamos a uri do banco, seguido do nome. Veja que na própria uri informamos usuário, senha e porta. Qualquer um pode ver nossa conexão, e isso não é uma boa prática. Mais adiante nós vamos trabalhar com variáveis de ambiente, evitando colocar a uri marretada no código.
+
+Veja que o express trabalha no formato de plugins, nós criamos o app e vamos adicionando funcionalidades conforme nossas necessidades. `app.use(express.json())` significa que estou habilitando o funcionamento de comunicação por json na nossa API. A partir de agora nosso cliente pode nos enviar dados por JSON.
+
+`app.use(router)` significa que estamos pegando aquele conjunto de rotas e injetando em um único lugar de uma vez. Poderíamos repetir essa linha várias vezes, com rotas vindo de lugares diferentes. No final o express as torna públicas.
+
+E por fim extamos exportando nosso `app`, sem iniciar o servidor com `app.listen()`. O motivo dessa abordagem é isolar nosso app de nosso servidor, dessa forma podemos testar nosso app sem precisar necessariamente do servidor ligado. Outro ponto é que podemos subir um ou vários servidores com o mesmo app, um na porta 3333, outro na 5000 e outro na 8080 por exemplo.
+
+### Conectando o app ao servidor
+
+Agora abra aquele arquivo index.js na raíz do projeto, e digite esse código:
+
+```js title=index.js
+import { app } from "./src/app";
+
+app.listen(3333, () => {
+  console.log("Servidor iniciado em http://localhost:3333");
+});
+```
+
+Agora sim, nossa aplicação está pronta para executar, pois importamos nosso app, e estamos subindo o servidor na porta 3333. Lembrando que a porta pode ser outra, desde que não esteja em uso.
+
+Até o momento nossa aplicação está com essa estrutura:
+
+```sh title=projeto
+├── docker-compose.yml
+├── index.js
+├── package.json
+├── package-lock.json
+└── src
+    ├── app.js
+    ├── models
+    │   └── dog.js
+    ├── routes.js
+    └── usecases
+        └── save-new-dog.js
+```
+
+## Adicionando variáveis de ambiente
+
+Antes de iniciarmos a aplicação, vamos mover aquela uri de conexão para uma env. Vamos precisar de uma biblioteca para nos auxiliar, instale a dotenv `npm install dotenv`.
+
+Após a instalação, crie um arquivo .env na raíz do projeto. O arquivo tem um ponto antes mesmo `.env`, pois ele será oculto pelo sistema operacional. Abra o arquivo e adicione essas duas linhas:
+
+```sh title=.env
+DB_URI=mongodb://root:root@localhost:27017/?authMechanism=DEFAULT
+DB_NAME=dogAdoption
+```
+
+Agora vá até o app.js dentro de src, abra ele e faça essa modificação:
+
+```js title=app.js
+import * as dotenv from "dotenv";
+import express from "express";
+import mongoose from "mongoose";
+import { router } from "./routes";
+
+dotenv.config();
+const app = express();
+
+mongoose.connect(process.env.DB_URI, { dbName: process.env.DB_NAME });
+
+app.use(express.json());
+app.use(router);
+
+export { app };
+```
+
+As modificações ocorretam na importação da dotenv e inicialização dela `dotenv.config()`, e depois em `mongoose.connect()`, ao invés de passarmos diretamente a string de conexão e nome do banco, estamos acessando por variável de ambiente `process.env`.
+
+## Iniciando a aplicação
+
+Agora que tudo está no seu devido lugar, execute `npm start` no seu terminal. Se a mensagem _"Servidor iniciado em http://localhost:3333"_ aparecer é porque deu tudo certo. Caso ainda não funcione, confira no link do GitHub que deixei no começo do post, e compare com seu código.
+
+### Cadastrando um cãozinho para adoção
+
+Agora que o servidor está executando, ele já pode receber uma request com os dados do cãozinho em **http://localhost:3333/dogs**. Para isso nós iremos precisar de uma ferramenta REST para enviar esses dados via POST em JSON.
+
+Eu recomendo o [Insomnia REST](https://insomnia.rest/download), pois ele é muito fácil de usar, e é gratuito. Siga os passos no próprio site e instale ele.

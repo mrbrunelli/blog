@@ -2,9 +2,9 @@
 slug: aprenda-a-testar-pt1
 title: Aprenda a escrever testes - Parte 1
 description: Para que servem os testes? Como faço para escrever um teste?
-keywords: [teste, cobertura, qualidade]
+keywords: [teste, cobertura, qualidade, testes automatizados]
 image: /img/node.jpg
-tags: [teste, cobertura, qualidade]
+tags: [teste, cobertura, qualidade, testes automatizados]
 authors: brunelli
 ---
 

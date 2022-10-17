@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[6925],{7971:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/pacote-npm","name":"pacote npm","count":1,"permalink":"/blog/tags/pacote-npm"}')}}]);

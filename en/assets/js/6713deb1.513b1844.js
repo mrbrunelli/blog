@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[8948],{9186:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/en/tags","slug":"/blog/en/tags/tdd","name":"tdd","count":1,"permalink":"/blog/en/tags/tdd"}')}}]);

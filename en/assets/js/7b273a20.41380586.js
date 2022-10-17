@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[7401],{8257:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/en/tags","slug":"/blog/en/tags/cobertura","name":"cobertura","count":1,"permalink":"/blog/en/tags/cobertura"}')}}]);

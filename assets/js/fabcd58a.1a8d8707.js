@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[2524],{3859:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/estudos","name":"estudos","count":1,"permalink":"/blog/tags/estudos"}')}}]);

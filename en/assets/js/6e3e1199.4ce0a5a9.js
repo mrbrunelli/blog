@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[518],{4532:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/en/tags","slug":"/blog/en/tags/teste-unitario","name":"teste unit\xe1rio","count":1,"permalink":"/blog/en/tags/teste-unitario"}')}}]);

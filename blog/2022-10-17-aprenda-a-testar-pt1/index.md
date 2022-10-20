@@ -91,3 +91,7 @@ Para que haja uma excelente cobertura, devemos utilizar todos esses tipos de tes
 - Os tipos de testes são: unidade, integração e de ponta a ponta.
 - Testar garante que o comportamento do sistema será preservado. Em caso de quebra, os testes avisarão onde ocorreu a quebra.
 - Se um sistema não possuí testes automatizados, não há como o desenvolvedor saber se a alteração que ele fez quebrou o sistema. Ele terá que testar manualmente, e em muitos dos casos poderão ocorrer falhas humanas e o sistema poderá ir para produção com defeito **(em muitos casos isso pode significar prejuízo financeiro para a empresa, e até falência da mesma).**
+
+### Repositório com o código
+
+[https://github.com/mrbrunelli/vitest-typescript-example/tree/aprenda-a-testar-parte-1](https://github.com/mrbrunelli/vitest-typescript-example/tree/aprenda-a-testar-parte-1)

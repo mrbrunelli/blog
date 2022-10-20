@@ -63,13 +63,13 @@ npm install -D vitest
 O Vitest precisa de um arquivo de configuração para poder executar. Na própria documentação tem um exemplo simples. Vou criar um arquivo **vitest.config.ts** na raiz, e adicionar a configuração básica.
 
 ```ts title="vitest.config.ts"
-import { defineConfig } from 'vitest/config
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
-    test: {
-        reporters: "verbose",
-    }
-})
+  test: {
+    reporters: "verbose",
+  },
+});
 ```
 
 Veja como o arquivo de configuração é enxuto, bem diferente dos outros frameworks citados no começo do post. [Na documentação tenho acesso a API](https://vitest.dev/config/), e como posso personalizar o **defineConfig()**. Não vou configurar nada extra, já está ótimo como está.
@@ -88,7 +88,7 @@ Quando eu executei o **npm init -y**, foi gerado um arquivo **package.json** na 
 ...
 ```
 
-Agora quando eu executar `npm run test` no terminal, o vitest irá executar meus testes. Como não temos nenhum teste, ele tentará rodar e retornará um erro dizendo que nenhum teste foi encontrado.
+> Agora quando eu executar `npm run test` no terminal, o vitest irá executar meus testes. Como não temos nenhum teste no momento, ele tentará rodar e retornará um erro dizendo que nenhum teste foi encontrado.
 
 ## Escrevendo o primeiro teste
 
@@ -136,7 +136,7 @@ Agora vou abrir o terminal e executar `npm run test`, e o Vitest irá executar e
 
 ### Erro
 
-Adicionei um campo a mais no objeto do último teste, **porém não adicionei no expect**, logo o teste fez a comparação e reprovou, pois os objetos não são iguais.
+Adicionei um campo a mais no objeto do último teste, **porém não adicionei no expect**, logo o teste fez a comparação e reprovou, pois os objetos não são mais iguais.
 
 > Veja como a inteface é amigável, ela exibe com muita clareza qual teste reprovou e o motivo.
 
@@ -145,7 +145,7 @@ Adicionei um campo a mais no objeto do último teste, **porém não adicionei no
 ## Resumo
 
 - Preciso saber em qual cenário vou escrever meus testes, se é frontend ou backend, pois cada um possuí a ferramenta certa para o cenário.
-- Se eu ainda não sei testar, devo procurar o framework mais fácil para aprender. Nesse caso foi o Vitest.
+- Se eu ainda não sei testar, devo procurar o framework mais fácil para aprender. Nesse caso foi o Vitest, pois ele tem uma filosofia **less config**.
 - A documentação contém tudo que preciso para configurar o framework, e ainda contém vários exemplos.
 - O Vitest procura por arquivos que tenham a extensão **.test.ts**.
 - Os resultados dos testes são exibidos no terminal, de uma forma muito amigável.

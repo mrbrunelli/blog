@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[7294],{9325:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/en/tags","slug":"/blog/en/tags/qualidade","name":"qualidade","count":1,"permalink":"/blog/en/tags/qualidade"}')}}]);

@@ -24,8 +24,7 @@ Mas recentemente venho estudando fortemente uma metodologia que abriu minha ment
 
 Se eu quisesse criar uma função que me retornasse o maior número de uma lista em Javascript, utilizando o **TDD** (escrevendo o teste primeiro), eu começaria fazendo algo mais ou menos assim:
 
-```js
-// Arquivo: pegueOMaiorNumero.test.js
+```js title="pegueOMaiorNumero.test.js"
 // Sintaxe de um framework de testes do Javascript
 
 describe("pegueOMaiorNumero", () => {
@@ -44,9 +43,7 @@ Nesse caso, eu forneci uma lista com alguns números, onde o 21 é o maior deles
 
 Vou criar a função que fará o teste passar:
 
-```js
-// Arquivo: pegueOMaiorNumero.test.js
-
+```js title="pegueOMaiorNumero.test.js"
 const pegueOMaiorNumero = (numeros) => {
   let maior = 0;
 
@@ -71,9 +68,7 @@ Agora o teste começará a passar. Veja que o algoritmo não ficou dos melhores,
 
 ## Vamos refatorar, sem medo!
 
-```js
-// Arquivo: pegueOMaiorNumero.test.js
-
+```js title="pegueOMaiorNumero.test.js"
 const pegueOMaiorNumero = (numeros) => {
   return Math.max(...numeros);
 };

@@ -9,7 +9,7 @@ authors: brunelli
 ---
 
 Salve galera, tudo bem com vocês?
-Hoje vou ensinar uma maneira bem elegante de validar dados no Javascript. E o mais legal, usando somente os recursos nativos da linguagem!
+Hoje vou ensinar uma maneira bem elegante de validar dados no Javascript. E o mais legal, usando somente os recursos nativos da linguagem.
 
 ## Entendendo o cenário
 
@@ -185,6 +185,6 @@ Utilizamos somente recursos nativos da nossa linguagem e evitamos pacotes extern
 
 Caso sua API precisasse de muitas validações, gravação de logs, mensagens super refinadas, ai sim seria melhor utilizar um pacote para fazer esse trabalho.
 
-Mas aqui era algo extremamente simples. O arroz com feijão já serviu!
+Mas aqui era algo extremamente simples.
 
 Espero que tenha gostado! Compartilhe essa postagem com seus amigos e colegas de trabalho! Vou ficando por aqui, até a próxima!

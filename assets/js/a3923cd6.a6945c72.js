@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[5207],{8907:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/tecnologias","name":"tecnologias","count":1,"permalink":"/blog/tags/tecnologias"}')}}]);

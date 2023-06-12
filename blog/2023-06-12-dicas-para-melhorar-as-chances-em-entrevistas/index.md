@@ -3,7 +3,7 @@ slug: dicas-para-melhorar-as-chances-em-entrevistas
 title: Dicas para melhorar as chances em entrevistas
 description: Como melhorar as chances em uma entrevista?
 keywords: [carreira, entrevista, dicas]
-image: /img/test.jpg
+image: /img/people-talking.jpeg
 tags: [carreira, entrevista, dicas]
 authors: brunelli
 ---

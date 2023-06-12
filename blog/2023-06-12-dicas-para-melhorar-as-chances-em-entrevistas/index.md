@@ -45,7 +45,7 @@ Deixe claro o que você faz bem, em outras palavras, destaque as suas habilidade
 
 Geralmente a lista de requisitos das vagas é extensa, e dificilmente alguém terá domínio sobre todas elas, e isso é proposital. Muita gente deixa de aplicar para a vaga só de olhar a lista de requisitos, e com isso uma grande parcela de curiosos já caem fora.
 
-### Arriscar
+### Arrisque
 
 O candidato deve arriscar mesmo que não cumpra toda a lista de requisitos, e eu vou explicar o porquê. Imagine que a vaga tenha 7 requisitos, e alguém se candidata com apenas 4 dos 7 requisitos, se você tiver 5 requisitos, já estará em vantagem.
 
@@ -53,4 +53,4 @@ Se o recrutador não encontrar alguém melhor do que você e com mais requisitos
 
 ## Mais algumas considerações
 
-Faça vários processos ao mesmo tempo, quanto mais entrevistas, maiores serão as chances. A melhor coisa é ser aprovado em mais de uma vaga e poder renegociar as condições, e escolher a que mais gostou.
+Não faz sentido não fazer vários processos ao mesmo tempo, a não ser que você tenha um objetivo específico. Do contrário, quanto mais entrevistas, maiores serão as chances. A melhor coisa é ser aprovado em mais de uma vaga e poder renegociar as condições, e escolher a que mais gostou.

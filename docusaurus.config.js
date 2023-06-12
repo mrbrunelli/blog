@@ -46,7 +46,7 @@ const config = {
           showReadingTime: true,
           blogTitle: "Postagens",
           blogDescription:
-            "Desenvolvimento de software, carreira, dicas de livros e muito Javascript! Clique aqui para ver as últimas postagens:",
+            "Desenvolvimento de software, carreira e dicas de livros. Clique aqui para ver as últimas postagens:",
           blogSidebarTitle: "Todos os posts",
           blogSidebarCount: "ALL",
           editUrl: "https://github.com/mrbrunelli/blog/tree/master",
@@ -103,17 +103,21 @@ const config = {
                 href: "https://github.com/mrbrunelli",
               },
               {
+                label: "Linkedin",
+                href: "https://www.linkedin.com/in/mrbrunelli",
+              },
+              {
                 label: "Twitter",
                 href: "https://twitter.com/mrbrunelli_",
               },
               {
-                label: "Linkedin",
-                href: "https://www.linkedin.com/in/mrbrunelli",
+                label: "Instagram",
+                href: "https://www.instagram.com/mrbrunelli.dev",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Matheus Ricardo Brunelli. Built with Docusaurus 💛`,
+        copyright: `Copyright © ${new Date().getFullYear()} Matheus R. Brunelli. Built with Docusaurus 💛`,
       },
       prism: {
         theme: lightCodeTheme,

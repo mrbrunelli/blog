@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[8182],{528:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/en/tags","slug":"/blog/en/tags/entrevista","name":"entrevista","count":1,"permalink":"/blog/en/tags/entrevista"}')}}]);

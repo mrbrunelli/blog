@@ -2,9 +2,9 @@
 slug: nao-espere-um-ambiente-favoravel-para-fazer-algo-com-qualidade
 title: Não espere um ambiente favorável para fazer algo com qualidade
 description: Como fazer um excelente trabalho, mesmo quando o ambiente é desfavorável?
-keywords: [carreira, dicas, qualidade, testes, negociar]
+keywords: [carreira, dicas, qualidade, testes, negociar, prazos]
 image: /img/peace.jpg
-tags: [carreira, dicas, qualidade, testes, negociar]
+tags: [carreira, dicas, qualidade, testes, negociar, prazos]
 authors: brunelli
 ---
 
@@ -12,13 +12,15 @@ Já ouviu essa frase alguma vez?
 
 > "eu até queria fazer algo melhor, mas o pessoal passou um prazo curto e falou pra deixar os débitos para depois"
 
+Pois é, bem chato né? Só que na maioria das vezes que isso acontece, a culpa é sua!
+
 <!-- truncate -->
 
 ## Frustação
 
-Essa é uma das frases mais comuns no trabalho, e ela é carregada de frustração, seja por não conseguirmos entregar algo relativamente bom, ou por sempre estarmos trabalhando sob pressão de prazos malucos.
+Essa é uma das frases mais comuns no trabalho, e ela é carregada de frustração, seja por não conseguirmos entregar algo relativamente bom, ou por sempre estarmos trabalhando sob pressão de **prazos malucos, que as vezes nós mesmos damos**.
 
-Hoje eu gostaria de compartilhar como eu consegui erradicar esse tipo de frustação da minha rotina de trabalho, e como isso tem mais a ver com **inteligência emocional** do que conhecimento técnico.
+Hoje eu gostaria de compartilhar como eu consegui erradicar esse tipo de frustação da minha rotina de trabalho, e como isso tem mais a ver com **inteligência emocional** do que conhecimento técnico\*.
 
 ### Um ciclo interminável
 
@@ -60,6 +62,18 @@ Hoje com essa abordagem, imbutindo todos os requisitos não funcionais no prazo,
 
 ## Invertendo o ciclo
 
-Agora as novas features serão desenvolvidas com menor tempo, já que o código estará mais modular, e com as regras de negócio validadas com testes. Logo, terei mais folga, e poderei refatorar aqueles trechos legados e bizonhos e adicionar cobertura de testes a eles também.
+Agora as novas features serão desenvolvidas com menor tempo, já que o código estará mais modular, e com as regras de negócio validadas com testes. Logo, terei mais folga, e poderei refatorar aqueles trechos legados e bisonhos e adicionar cobertura de testes a eles também.
 
 Os bugs natualmente irão diminuir, e agora não precisarei fazer remendos sem fim, isso é trabalhar com inteligência, **fazer menor esforço e alcançar um resultado melhor que antes**.
+
+Invertendo esse ciclo, os deploy não serão mais um caos, com hotfix pra todo lado (isso é bizarro) e todos em uma sala de guerra com o stakeholder no cangote. Essa é uma forma amadora de trabalhar, e muito estressante para todos.
+
+## Conclusão
+
+Se ficarmos esperando as pessoas acima de nós terem essa maturidade, nosso trabalho sempre será um inferno, e nós só vamos criar engenhocas.
+
+\*Eu disse lá no começo do post que isso tem mais a ver com inteligência emocional do que com capacidade técnica, pois eu estou aceitando o fato de que você já saiba fazer o seu trabalho bem, mas que por motivos não técnicos, acaba sempre frustrado.
+
+Porém se você ainda não compreende a importância de se ter um código bem testado, com um bom design e documentado, essa inteligência emocional que mencionei será inútil para você.
+
+Se esse é o seu caso, se dedique primeiro a aprender coisas que realmente importam, e busque avançar em sua senioridade, e então esses outros pontos que explanei aqui farão sentido pra você.

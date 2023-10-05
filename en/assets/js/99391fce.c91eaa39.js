@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[4898],{3877:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/en/tags","slug":"/blog/en/tags/carreira","name":"carreira","count":1,"permalink":"/blog/en/tags/carreira"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[5074],{5599:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/negociar","name":"negociar","count":1,"permalink":"/blog/tags/negociar"}')}}]);

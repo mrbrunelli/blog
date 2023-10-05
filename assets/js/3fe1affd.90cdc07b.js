@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[7571],{5332:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/prazos","name":"prazos","count":1,"permalink":"/blog/tags/prazos"}')}}]);

@@ -48,7 +48,7 @@ Isso resolveu uma parte da frustração, pois discutindo mais sobre os problemas
 
 Na maioria das vezes que o time de engenharia negocia os prazos, eles não fazem ideia do que terão que fazer, logo o prazo vira um chutômetro.
 
-Outro cenário é quando o time não saber interpretar os **requisitos não funcionais**, como boa **abstração de código, arquitetura coesa, documentação e testes automatizados**.
+Outro cenário é quando o time não sabe interpretar os **requisitos não funcionais**, como boa **abstração de código, arquitetura coesa, documentação e testes automatizados**.
 
 Entenda, para o cliente é importante a feature de valor, isso gerará caixa para o negócio. Mas para essa feature de valor ser sustentável, ela precisa ter os pontos dos requisitos não funcionais que citei acima.
 
@@ -56,7 +56,7 @@ O cliente não precisa de testes automatizados ou documentação técnica, **mas
 
 ### Negocie melhor
 
-Portanto, mude seu discurso de _"a task sem os testes ficará pronta em 12 horas de trabalho"_ para _"a task ficará pronta em 16 horas de trabalho"_. Coloque na sua estimativa de trabalho todos os requisitos.
+Portanto, mude seu discurso de _"a task sem os testes ficará pronta em 12 horas de trabalho"_ para _"a task ficará pronta em 16 horas de trabalho"_. Coloque na sua estimativa de trabalho todos os requisitos, inclusive os **não funcionais**.
 
 Hoje com essa abordagem, imbutindo todos os requisitos não funcionais no prazo, eu consigo realizar meu trabalho com muito mais prazer, consigo fazer um código com uma abstração decente, com testes automatizados e ainda entregando no prazo combinado.
 
@@ -70,10 +70,10 @@ Invertendo esse ciclo, os deploy não serão mais um caos, com hotfix pra todo l
 
 ## Conclusão
 
-Se ficarmos esperando as pessoas acima de nós terem essa maturidade, nosso trabalho sempre será um inferno, e nós só vamos criar engenhocas.
+Se ficarmos esperando as pessoas acima de nós terem essa maturidade, nosso trabalho sempre será um inferno, e nós só vamos criar engenhocas e códigos descartáveis e inúteis que terão que ser reescritos.
 
 \*Eu disse lá no começo do post que isso tem mais a ver com inteligência emocional do que com capacidade técnica, pois eu estou aceitando o fato de que você já saiba fazer o seu trabalho bem, mas que por motivos não técnicos, acaba sempre frustrado.
 
-Porém se você ainda não compreende a importância de se ter um código bem testado, com um bom design e documentado, essa inteligência emocional que mencionei será inútil para você.
+Porém **se você ainda não compreende a importância de se ter um código bem testado**, com um bom design e documentado, essa inteligência emocional que mencionei será inútil para você.
 
 Se esse é o seu caso, se dedique primeiro a aprender coisas que realmente importam, e busque avançar em sua senioridade, e então esses outros pontos que explanei aqui farão sentido pra você.
